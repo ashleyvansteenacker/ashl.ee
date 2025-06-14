@@ -1,0 +1,19 @@
+[build]
+  publish = "public"
+  command = "hugo"
+
+[build.environment]
+  HUGO_VERSION = "0.147.0"
+  HUGO_ENV = "production"
+
+[context.production.environment]
+  HUGO_VERSION = "0.147.0"
+  HUGO_ENV = "production"
+
+[context.deploy-preview]
+  command = "hugo --buildFuture -b $DEPLOY_PRIME_URL"
+
+[[redirects]]
+  from = "/handtag"
+  to = "/handtag/"
+  status = 301
