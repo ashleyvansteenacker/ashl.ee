@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>{{ .Title }}</title>
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      font-family: 'Segoe UI', sans-serif;
+      color: white;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      background: url('https://www.swlaw.edu/sites/default/files/2018-10/handshake%20example.GIF') no-repeat center center fixed;
+      background-size: cover;
+    }
+    a {
+      color: #fff;
+      text-decoration: underline;
+      font-weight: bold;
+    }
+    .overlay {
+      background-color: rgba(0,0,0,0.6);
+      padding: 2rem;
+    }
+  </style>
+</head>
+<body>
+  <div class="overlay">
+    {{ .Content }}
+  </div>
+</body>
+</html>

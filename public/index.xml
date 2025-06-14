@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ashley’sLAB!</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on Ashley’sLAB!</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 14 Jun 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About</title>
+      <link>http://localhost:1313/about/</link>
+      <pubDate>Sat, 14 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/about/</guid>
+      <description>&lt;p&gt;&lt;em&gt;👋 Hi, I’m Ash&lt;/em&gt;&lt;/p&gt;&#xA;&lt;p&gt;Ever since I was a kid, I’ve been fascinated by lights.&#xA;How they move, change, and create atmosphere. That early spark turned into a lifelong passion for electronics and engineering, and now I get to lead an amazing team as Head of Engineering at &lt;a href=&#34;https://vivalyte.com&#34;&gt;Vivalyte&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;I specialize in building systems around addressable LED pixels, dynamic lighting, and smart control tech. Basically anything that makes light come alive. I love solving tricky hardware/software challenges and turning creative ideas into real, working products.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Triggerino</title>
+      <link>http://localhost:1313/triggerino/</link>
+      <pubDate>Sat, 14 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/triggerino/</guid>
+      <description>&lt;p&gt;🚀 &lt;strong&gt;Triggerino&lt;/strong&gt; is my universal trigger device powered by ESP32.&lt;br&gt;&#xA;It accepts analog, digital, and PWM inputs and outputs signals via Art-Net, OSC, TCP, and HTTP.&lt;/p&gt;&#xA;&lt;p&gt;This page will cover the project in detail, schematics, firmware, and future plans.&lt;/p&gt;&#xA;&lt;p&gt;&#xD;&#xA;  &lt;img src=&#34;https://live.staticflickr.com/65535/54588852178_8b1005580f_b.jpg&#34; alt=&#34;Bare bones test&#34;&gt;&#xD;&#xA;&#xD;&#xA;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>An Example Post</title>
+      <link>http://localhost:1313/post/hello-world/</link>
+      <pubDate>Mon, 04 Jun 2018 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/hello-world/</guid>
+      <description>&lt;p&gt;Welcome to my freshly rebuilt site!&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Using the J Tech Photonics Laser add-on (2.8W)</title>
+      <link>http://localhost:1313/post/using-the-j-tech-photonics-laser-add-on-2-8w.1/</link>
+      <pubDate>Wed, 12 Apr 2017 11:14:48 -0400</pubDate>
+      <guid>http://localhost:1313/post/using-the-j-tech-photonics-laser-add-on-2-8w.1/</guid>
+      <description>&lt;p&gt;A while back I’ve bought a J Tech Photonics laser add-on for my X-Carve CNC mill. It wasn’t cheap. I paid €405 for the complete set. This included: The laser and driver module, the 3D printed mounting kit + fan and a pair of safety glasses.&lt;/p&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;p&gt;The people over at J-Tech Photonics have a wide verity of guides available for various machines including: The X-carve, the Shapeoko, Stepcraft, Ultimaker, Makerbot and about a dozen more.&#xA;The instructions are very well documented. But well they weren’t exactly Ashley proof. more about that later. The driver is mounted onto of the Z carriage. But while installing the included bottom driver mount I noticed that unless you have you have the NEMA 23 stepper motors you will need to modify the mount. I ended up cutting some pieces out it with some cutters. The driver then mounted perfectly on top. The laser and the “trigger” can be either hard-wired are can be connected using some 2 pin Molex connectors. I opted for the last option. And that is where I messed up. The laser and the “trigger” input both use the same 2 pin Molex connector. And that Is how I fried my Arduino that was plugged in to the GRBL shield. Luckily I have some extra Arduino’s laying around. So after A call with the Inventables Helpdesk (These guys are awesome) I’ve flashed GRBL on to a new Arduino. And now I can continue.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>IOT As we know it today &#43; rant</title>
+      <link>http://localhost:1313/post/iot-as-we-know-it-today-&#43;-rant/</link>
+      <pubDate>Mon, 31 Oct 2016 10:58:08 -0400</pubDate>
+      <guid>http://localhost:1313/post/iot-as-we-know-it-today-&#43;-rant/</guid>
+      <description>&lt;p&gt;There are well over 6.4 billion connected devices out there today. with an expectation of 20.8 billion by 2020.&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;&#xA;&lt;p&gt;Well thats great. And I can definitely understand why you would want to have a DVR or an HVAC system that&amp;rsquo;s &amp;ldquo;smart&amp;rdquo;. When you are leaving from work you can record your favourite show or turn up the heating. It&amp;rsquo;s great if you can do those things remotely. But are they really that secure?&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Cheap Hot Air Rework Station (with teardown)</title>
+      <link>http://localhost:1313/post/cheap-hot-air-rework-station/</link>
+      <pubDate>Wed, 21 Sep 2016 11:14:48 -0400</pubDate>
+      <guid>http://localhost:1313/post/cheap-hot-air-rework-station/</guid>
+      <description>&lt;p&gt;A long time ago I&amp;rsquo;ve found myself in need for a Hot Air Rework Station. Then the search on Amazon and other sites started. The Hakko ones are a bit pricy and the JBC&amp;rsquo;s are way to expensive. Aliexpress to the rescue.&lt;/p&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;p&gt;And then I saw this. I thought for 50€ why not?&#xA;It might not be the best but eh, what could go wrong.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Bresser Biorit ICD CS (review)</title>
+      <link>http://localhost:1313/post/bresser-biorit-icd-cs-/</link>
+      <pubDate>Mon, 12 Sep 2016 11:25:05 -0400</pubDate>
+      <guid>http://localhost:1313/post/bresser-biorit-icd-cs-/</guid>
+      <description>&lt;p&gt;So a while back i&amp;rsquo;ve decided to buy a stereoscopic microscope. Not a microscope to look at bacteria but a microscope to look at microchips.&lt;/p&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;p&gt;I&amp;rsquo;ve been looking around and I saw that Louis from  The Rossmann Repair Group uses an Amscope microscope and so does Jessa from Ipadrehab.&lt;/p&gt;&#xA;&lt;p&gt;Ok! let&amp;rsquo;s shop for an Amscope then. yeah, you&amp;rsquo;d end up paying more import duties then what the actual microscope is worth.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>USB type C Mod time!</title>
+      <link>http://localhost:1313/post/usb-type-c-mod-time/</link>
+      <pubDate>Fri, 24 Jun 2016 11:15:58 -0400</pubDate>
+      <guid>http://localhost:1313/post/usb-type-c-mod-time/</guid>
+      <description>&lt;!-- raw HTML omitted --&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;p&gt;Now thats all good and well but lets now focus on USB type C!&lt;/p&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;p&gt;After A lot of cutting trough plastics and heating up the connector to meld the hot glue.&#xA;I&amp;rsquo;ve finally got a clean PCB. Then using the BigClive photo reverse engineering program I&amp;rsquo;ve managed to figure out what does what.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>DIY solder stencils</title>
+      <link>http://localhost:1313/post/diy-solmder_stencils/</link>
+      <pubDate>Mon, 30 May 2016 11:13:32 -0400</pubDate>
+      <guid>http://localhost:1313/post/diy-solmder_stencils/</guid>
+      <description>&lt;p&gt;So you&amp;rsquo;ve made a few printed circuit boards (PCB&amp;rsquo;s) and now you have to manually solder all of those tiny 0402 SMD components. Or you are just curious how you can make your life easier when soldering a lot of SMD components. Search no more!&lt;/p&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;p&gt;You&amp;rsquo;ve probably heard of stencils before and they are everywhere. Think of those: letter stencils, paint stencils and well I can go on with this list until the cows come home. But thats not the point. We want to make our life easier. Thats why we are going to make our own.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Doel, Belgium&#39;s Ghost town</title>
+      <link>http://localhost:1313/post/doel-belgiums-ghost-town/</link>
+      <pubDate>Sun, 24 Apr 2016 11:00:59 -0400</pubDate>
+      <guid>http://localhost:1313/post/doel-belgiums-ghost-town/</guid>
+      <description>&lt;p&gt;Doel is located near the border of the Netherlands. It&amp;rsquo;s also right next to the port of Antwerp and the famous nuclear reactor that has cracks in it&amp;rsquo;s nuclear reservoir also beter knows as Doel I.&lt;/p&gt;&#xA;&lt;p&gt;Doel is threatened with complete demolition due to the future enlargement of the port of Antwerp. However, Doel has played an important role in the 17th century.&#xA;They had one of the two famous forts. Fort Liefkenshoek, they were able to see for miles with there big watch tower. Also during that time they housed sailers who were infected with (at the time) deadly diseases. They not only housed them, but they also went trough a complete disinfection process.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>👋 Welcome from my hand</title>
+      <link>http://localhost:1313/handtag/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/handtag/</guid>
+      <description>&lt;h1 id=&#34;hey-there&#34;&gt;Hey there.&lt;/h1&gt;&#xA;&lt;p&gt;You&amp;rsquo;ve scanned the chip in my hand. That either means you&amp;rsquo;re curious…&lt;br&gt;&#xA;or you&amp;rsquo;re me debugging something.&lt;/p&gt;&#xA;&lt;p&gt;This tag is a digital handshake a pointer to Ashley’sLAB and all things creative, technical, and possibly dangerous.&lt;/p&gt;&#xA;&lt;p&gt;👉 &lt;a href=&#34;http://localhost:1313/&#34;&gt;Explore the LAB&lt;/a&gt;&lt;/p&gt;&#xA;&lt;hr&gt;</description>
+    </item>
+  </channel>
+</rss>

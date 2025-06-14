@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Abouts on Ashley’sLAB!</title>
+    <link>http://localhost:1313/about/</link>
+    <description>Recent content in Abouts on Ashley’sLAB!</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 14 Jun 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/about/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About</title>
+      <link>http://localhost:1313/about/about/</link>
+      <pubDate>Sat, 14 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/about/about/</guid>
+      <description>&lt;p&gt;👋 Hi, I’m Ashley — creator, engineer, and prototyper.&lt;/p&gt;&#xA;&lt;p&gt;This is where I share my thoughts, LED experiments, hardware projects, and the occasional working miracle.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

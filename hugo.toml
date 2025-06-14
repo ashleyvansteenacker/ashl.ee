@@ -1,0 +1,56 @@
+baseURL = "https://ashl.ee/"
+languageCode = "en-us"
+title = "Ashley’sLAB!"
+theme = "cleanwhite"
+
+[params]
+  author = "Ashley Van Steenacker"
+  description = "Thoughts, stories, ideas, and hopefully some working prototypes!"
+  avatar = "images/avatar.jpg"
+  favicon = "images/favicon.ico"
+  logoTitle = "Ashley’sLAB"
+  slogan = "Where prototypes sometimes work"
+
+  header_image = "https://live.staticflickr.com/65535/54587632672_7100d30a0e_k.jpg"
+  keywords = "Ashley Van Steenacker, Ashley'sLAB, creative technology, LED control, prototyping, embedded systems, lighting installations, ESP32 projects, STM32, electronics blog, NDI to Art-Net, OSC, DMX, interactive design, creative engineering, Vivalyte, custom lighting control, maker blog, hardware development, open source lighting"
+  upstreamAttribution = true
+
+  image_404 = "https://live.staticflickr.com/65535/54587632672_7100d30a0e_k.jpg"
+  title_404 = " Whups, page was not found :("
+  omit_categories = false  
+
+  friends = false
+  bookmarks = false
+  about_me = true
+   # Sidebar settings
+  sidebar_about_description = "Maker"
+  #sidebar_avatar = "img/avatar-zhaohuabing.jpg"      # use absolute URL, seeing it's used in both `/` and `/about/`
+  sidebar_avatar = "https://media.licdn.com/dms/image/v2/D4E03AQEDzd0-1tcJkA/profile-displayphoto-shrink_800_800/B4EZXyEw6kGgAg-/0/1743523091645?e=1755129600&v=beta&t=x7piXgjaSLFwd6MFud_Dq53pVAj2CDw6NQinLbQDQGo"      # use absolute URL, seeing it's used in both `/` and `/about/`
+
+    
+  [params.social]
+  rss            = true 
+  linkedin       = "https://linkedin.com/in/ashley-van-steenacker-176362134"
+  #instagram     = "https://www.instagram.com/ashleyslab/"
+  github         = "https://github.com/ashleyvansteenacker"
+  wechat         = "your wechat qr code image"
+  #youtube       = "http://www.youtube.com/c/AshleyVanSteenacker"
+
+  [[params.additional_menus]]
+  title =  "ABOUT"
+  href =  "/about/"
+  
+[[menu.main]]
+  name = "Home"
+  url = "/"
+  weight = 1
+
+[[menu.main]]
+  name = "Posts"
+  url = "/post/"
+  weight = 2
+
+[[menu.main]]
+  name = "About"
+  url = "/about/"
+  weight = 3
